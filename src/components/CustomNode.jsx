@@ -153,7 +153,7 @@ function CustomNode(props) {
           {label === 'Upload Media' && <img src="imgs/media-icon.png" className='h-5 mr-2' alt="A" width={20} />}
           {label === 'Talk with advisor' && <img src="imgs/talk-icon.png" className='h-5 mr-2' alt="A" width={20} />}
           {label === 'Web Service' && <img src="imgs/web-icon.png" className='h-5 mr-2' alt="A" width={20} />}
-          {label === 'Date Time' && <img src="imgs/web-icon.png" className='h-5 mr-2' alt="A" width={20} />}
+          {label === 'Date Time' && <img src="imgs/schedule-icon.png" className='h-5 mr-2' alt="A" width={20} />}
           {label}
         </p>
 

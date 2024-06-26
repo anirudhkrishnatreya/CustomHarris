@@ -382,7 +382,7 @@ function SettingBar({ setShowSettingBar, selectedNodeData, setVariables, variabl
               {label === 'Upload Media' && <img src="imgs/media-icon.png" className='h-6 mr-2' alt="A" width={24} />}
               {label === 'Talk with advisor' && <img src="imgs/talk-icon.png" className='h-6 mr-2' alt="A" width={24} />}
               {label === 'Web Service' && <img src="imgs/web-icon.png" className='h-6 mr-2' alt="A" width={24} />}
-              {label === 'Date Time' && <img src="imgs/web-icon.png" className='h-6 mr-2' alt="A" width={24} />}
+              {label === 'Date Time' && <img src="imgs/schedule-icon.png" className='h-6 mr-2' alt="A" width={24} />}
               <span>{label}</span>
             </div>
             <i className='fa fa-close float-right m-2 cursor-pointer' onClick={() => setShowSettingBar(false)}></i>
